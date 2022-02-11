@@ -1,13 +1,41 @@
-body{
-    font-family: sans-serif;
-    background-color:rgb(116, 138, 148);
-    }
-
-h1{
-    color:darkgoldenrod
+* {
+	box-sizing: border-box;
 }
 
-img{
-    max-width: 300%;
-    }
+body {
+	font-family: sans-serif;
+	background-color: rgb(116, 138, 148);
+}
 
+h1 {
+	color: darkgoldenrod;
+}
+
+img {
+	max-width: 300%;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+    margin-top: 20px;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-container > div {
+	color: white;
+    margin-left: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: solid white 1px;
+    flex: 1;
+text-align: center;
+
+
+}
+
+div ul li {
+	list-style-type: none;
+}
